@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio website for Randy, a product-minded developer crafting polished digital products.">
+  <title>Randy | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="Randy portfolio home">
+      <span class="brand-mark">R</span>
+      <span>Randy</span>
+    </a>
+
+    <button class="menu-toggle" type="button" data-menu-toggle aria-label="Open navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" data-nav aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/hero-workspace.png" alt="A modern laptop workspace with interface panels, notebooks, and hardware on a sunlit desk.">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">Independent Web Portfolio</p>
+        <h1 id="hero-title">Randy</h1>
+        <p class="hero-copy">
+          Product-minded developer building fast, polished web experiences with a strong eye for interaction, structure, and finish.
+        </p>
+        <div class="hero-actions" aria-label="Portfolio actions">
+          <a class="button button-primary" href="#work">View Work</a>
+          <a class="button button-secondary" href="mailto:hello@example.com">Start a Project</a>
+        </div>
+        <dl class="hero-stats" aria-label="Portfolio highlights">
+          <div>
+            <dt>12+</dt>
+            <dd>shipped launches</dd>
+          </div>
+          <div>
+            <dt>6</dt>
+            <dd>product domains</dd>
+          </div>
+          <div>
+            <dt>98</dt>
+            <dd>Lighthouse target</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="intro band" aria-labelledby="intro-title">
+      <div class="section-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About</p>
+          <h2 id="intro-title">Design-aware engineering for teams that need momentum.</h2>
+        </div>
+        <div class="intro-copy reveal">
+          <p>
+            I help shape products from first concept through launch: interface systems, front-end architecture, responsive builds, and the small interaction details that make software feel considered.
+          </p>
+          <p>
+            From sketch to shipped interface, the work stays grounded in clear priorities, tight feedback loops, and thoughtful visual systems.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-section" id="work" aria-labelledby="work-title">
+      <div class="section-head reveal">
+        <p class="eyebrow">Selected Work</p>
+        <h2 id="work-title">Projects with a clear problem, crisp interface, and measurable result.</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-visual visual-teal" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="project-body">
+            <p class="project-type">SaaS Dashboard</p>
+            <h3>SignalOps Console</h3>
+            <p>
+              A dense operations dashboard redesigned around triage speed, alert clarity, and predictable team handoffs.
+            </p>
+            <ul class="tag-list" aria-label="SignalOps project skills">
+              <li>React</li>
+              <li>Design Systems</li>
+              <li>Analytics</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-coral" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="project-body">
+            <p class="project-type">Commerce Experience</p>
+            <h3>Northline Studio</h3>
+            <p>
+              A responsive storefront with editorial product pages, streamlined browsing, and faster conversion paths.
+            </p>
+            <ul class="tag-list" aria-label="Northline project skills">
+              <li>Performance</li>
+              <li>UX</li>
+              <li>CMS</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-amber" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="project-body">
+            <p class="project-type">AI Workflow</p>
+            <h3>Draftline Review</h3>
+            <p>
+              A collaborative review tool that turns scattered notes into structured decisions, owners, and next steps.
+            </p>
+            <ul class="tag-list" aria-label="Draftline project skills">
+              <li>AI UX</li>
+              <li>Node</li>
+              <li>Prototyping</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="services band" id="services" aria-labelledby="services-title">
+      <div class="section-head reveal">
+        <p class="eyebrow">Services</p>
+        <h2 id="services-title">A practical mix of strategy, interface design, and front-end execution.</h2>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-item reveal">
+          <p class="service-number">01</p>
+          <h3>Product UI</h3>
+          <p>Responsive screens, design systems, component libraries, and polished interaction states.</p>
+        </article>
+        <article class="service-item reveal">
+          <p class="service-number">02</p>
+          <h3>Front-End Builds</h3>
+          <p>Accessible, maintainable interfaces built with clean markup, modern CSS, and focused JavaScript.</p>
+        </article>
+        <article class="service-item reveal">
+          <p class="service-number">03</p>
+          <h3>Launch Support</h3>
+          <p>Performance passes, QA polish, content fit checks, and handoff documentation for growing teams.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="process-section" id="process" aria-labelledby="process-title">
+      <div class="section-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Process</p>
+          <h2 id="process-title">Small loops, visible progress, fewer surprises.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <p>01</p>
+            <h3>Frame</h3>
+            <span>Clarify goals, audience, constraints, and the smallest useful release.</span>
+          </article>
+          <article class="timeline-item reveal">
+            <p>02</p>
+            <h3>Shape</h3>
+            <span>Prototype flows, define reusable patterns, and settle the visual direction.</span>
+          </article>
+          <article class="timeline-item reveal">
+            <p>03</p>
+            <h3>Build</h3>
+            <span>Ship in focused passes with responsive checks, accessibility review, and final polish.</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact band" id="contact" aria-labelledby="contact-title">
+      <div class="contact-layout reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Have a project that needs a clear path from idea to launch?</h2>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:hello@example.com">hello@example.com</a>
+          <a class="button button-secondary" href="#top">Back to Top</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Designed and built for Randy. <span data-year></span></p>
+    <a href="#top">Top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
